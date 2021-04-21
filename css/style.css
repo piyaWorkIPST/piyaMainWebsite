@@ -1,0 +1,93 @@
+body {
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: 	black;
+    font-size: 48px;
+    padding: 15px;
+    text-shadow: 0 0 10px rgb(56, 56, 56);
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-65%);
+}
+.hover-effect::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: black;
+    transition: width .3s
+}
+
+.hover-effect:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+li {
+    display: inline-block;
+}
+
+li h2 {
+    text-decoration: none;
+    color: 	black;
+    padding: 15px;
+}
+.hover-effect::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: black;
+    transition: width .3s
+}
+
+.hover-effect:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+}
+
+h2 {
+    margin: 0%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+.piyaphat {
+    position: absolute;
+    width: 10%;
+    left: 60%;
+    top: 80%;
+}
+
+img {
+    position: absolute;
+    width: 10%;
+    left: 25%;
+    top: 80%;
+}
